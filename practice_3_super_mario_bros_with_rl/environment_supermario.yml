@@ -1,0 +1,16 @@
+name: supermario
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.10
+  - jupyter
+  - pip
+  - pip:
+      - numpy==1.26.4
+      - gym==0.26.2
+      - gym-super-mario-bros==7.4.0
+      - nes-py==8.2.1
+      - torch
+      - torchvision
